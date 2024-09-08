@@ -4,7 +4,7 @@ function newMovie(arr) {
         info = info.split(` `);
         if (info.includes(`addMovie`)) {
             info.shift();
-            info = info.join(` `)
+            info = info.join(` `);
             let obj = {};
             obj.name = info;
             newArr.push(obj);
